@@ -1,0 +1,66 @@
+html._popup-opened body {
+    overflow: hidden;
+  }
+  body {
+    margin: 0 auto;
+  }
+
+  p {
+    color: black;
+  }
+
+  .block_main {
+    margin: 0 auto;
+    background-color: #1B263B;
+    padding: 10px;
+    width: 360px;
+  }
+
+  .block_menu {
+    margin: 0 auto;
+    background-color: #1B263B;
+    padding: 0px 10px 10px 10px;
+    width: 360px;
+    color: white;
+    font-size: 20px;
+  }
+  .block_menu :link {
+    text-decoration: none;
+  }
+
+  .block_body {
+    margin: 0 auto;
+    background-color: #1B263B;
+    padding: 0px 10px;
+    width: 360px;
+    height: 600px;
+    color: white;
+  }
+
+  .title-center {
+    text-align: center;
+  }
+  
+  .parent {
+    width: 500px;
+    border: solid;
+  }
+  
+  .child {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: solid;
+  }
+  
+  .zagolovok {
+    font-family: 'Roboto', Arial, sans-serif; 
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px;
+  }
+
+  .menu {
+
+  }
