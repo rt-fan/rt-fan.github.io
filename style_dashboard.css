@@ -12,7 +12,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  height: 40px;
+  height: 60px;
   color: #ffffff;
   background-color: #111827;
   border-radius: 5px;
@@ -31,11 +31,13 @@ body {
   height: 30px;
   border: 2px solid rgb(168, 0, 0);
   border-radius: 5px;
-  color: rgb(168, 0, 0);
+  /* color: rgb(168, 0, 0);
+  background-color: white; */
+  color: #ffffff;
+  background-color: rgb(168, 0, 0);
   margin-bottom: 16px;
   font-size: 18px;
   font-weight: 500;
-  background-color: white;
 }
 
 .main_block {
