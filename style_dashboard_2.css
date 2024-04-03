@@ -38,10 +38,104 @@ body {
   font-weight: 500;
 }
 
+/* Блок с заявкой */
 .main_block {
   border: 1px solid #111827;
   border-radius: 5px;
   margin-bottom: 16px;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 10px 10px;
   background-color: white;
+}
+
+/* Блок заголовок */
+.block_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Заголовок слева */
+.title_left {
+  display: flex;
+  border: 1px solid rgb(255, 0, 0);
+}
+
+/* Блок имя и состояние */
+.title_left_name_and_state {
+  display: flex;
+}
+
+/* Имя мастера */
+.title_left_name {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Состояние работы */
+.title_left_state {
+  
+}
+
+/* Блок выходов на работу */
+.title_left_days {
+  display: flex;
+}
+
+/* Счетчик рабочих дней */
+.count_workday {
+  
+}
+
+/* Счетчик выходных */
+.count_weekend {
+  
+}
+
+/* Счетчики заявок */
+.title_left_count {
+  display: flex;
+}
+
+/* Счетчик назначенных заявок */
+.count_assigned {
+
+}
+
+/* Счетчик заявок в исполнении */
+.count_in_progress {
+
+}
+
+/* Счетчик закрытых заявок за день */
+.count_completed {
+
+}
+
+/* Счетчик закрытых заявок за месяц */
+.count_all_in_mount {
+
+}
+
+/* Заголовок справа */
+.title_right {
+  border: 1px solid rgb(255, 0, 0);
+}
+
+/* Описание для даты последней заявки */
+.title_right_description {
+
+}
+
+/* Дата последней заявки */
+.title_right_date {
+
+}
+
+/* Время последней заявки */
+.title_right_time {
+
+}
+
+/* Блок с заявкой */
+.block_tasks {
+
 }
