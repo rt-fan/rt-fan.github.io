@@ -238,20 +238,22 @@ body {
   }
 
   .title_left {
-    /* width: 75%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 100%; */
   }
 
   .title_left_name_and_state {
     display: flex;
-    flex-basis: 38%;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
   }
 
   .title_left_name {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
   }
 
   .title_left_state {
