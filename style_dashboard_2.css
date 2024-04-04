@@ -29,7 +29,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 30px;
-  border: 2px solid rgb(168, 0, 0);
   border-radius: 5px;
   color: rgb(255, 255, 255);
   background-color: rgb(168, 0, 0);
@@ -47,6 +46,10 @@ body {
   background-color: white;
 }
 
+.main_container {
+  margin: 0 auto;
+}
+
 /* Блок заголовок */
 .block_title {
   display: flex;
@@ -56,86 +59,120 @@ body {
 /* Заголовок слева */
 .title_left {
   display: flex;
+  align-items: center;
   border: 1px solid rgb(255, 0, 0);
+}
+
+.title_left_count a {
+  text-decoration: none;
 }
 
 /* Блок имя и состояние */
 .title_left_name_and_state {
   display: flex;
+  margin-right: 200px;
+  border: 1px solid rgb(255, 0, 0);
 }
 
 /* Имя мастера */
 .title_left_name {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
+  margin-right: 16px;
 }
 
 /* Состояние работы */
 .title_left_state {
-  
+  display: inline-block;
+  height: 20px;
+  color: white;
+  background-color: green;
+  font-weight: 500;
+  padding: 0px 10px;
+  /* transform: translate(0px, 4px); */
+  margin-right: 16px;
 }
 
 /* Блок выходов на работу */
 .title_left_days {
   display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 30px;
+  /* transform: translate(0px, 8px); */
 }
 
-/* Счетчик рабочих дней */
-.count_workday {
-  
+/* Блоки счетчиков */
+.count_workday,
+.count_weekend,
+.count_assigned,
+.count_in_progress,
+.count_completed,
+.count_all_in_mount {
+  text-align: center;
 }
 
-/* Счетчик выходных */
-.count_weekend {
-  
+/* Счетчики */
+.count_workday_number,
+.count_weekend_number,
+.count_assigned_number,
+.count_in_progress_number,
+.count_completed_number,
+.count_all_in_mount_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 30px;
+  color: white;
+  background-color: #111827;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Блок счетчика рабочих дней */
+.count_workday,
+.count_assigned,
+.count_in_progress,
+.count_completed {
+  margin-right: 10px;
 }
 
 /* Счетчики заявок */
 .title_left_count {
   display: flex;
-}
-
-/* Счетчик назначенных заявок */
-.count_assigned {
-
-}
-
-/* Счетчик заявок в исполнении */
-.count_in_progress {
-
-}
-
-/* Счетчик закрытых заявок за день */
-.count_completed {
-
-}
-
-/* Счетчик закрытых заявок за месяц */
-.count_all_in_mount {
-
+  font-size: 12px;
+  font-weight: 400;
+  /* transform: translate(0px, 8px); */
 }
 
 /* Заголовок справа */
 .title_right {
+  width: 150px;
   border: 1px solid rgb(255, 0, 0);
 }
 
 /* Описание для даты последней заявки */
 .title_right_description {
-
 }
 
-/* Дата последней заявки */
-.title_right_date {
-
-}
-
-/* Время последней заявки */
-.title_right_time {
-
+/* Дата и время последней заявки */
+.title_right_datetime {
+  font-weight: 500;
 }
 
 /* Блок с заявкой */
 .block_tasks {
+}
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1920px) {
+  .main_container {
+    width: 1536px;
+  }
 }
