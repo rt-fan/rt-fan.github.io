@@ -61,7 +61,7 @@ body {
   display: flex;
   align-items: center;
   width: 80%;
-  /* border: 1px solid rgb(255, 0, 0); */
+  border: 1px solid rgb(255, 0, 0, 0.2);
 }
 
 .title_left_count a {
@@ -73,7 +73,7 @@ body {
   display: flex;
   align-items: center;
   flex-basis: 50%;
-  /* border: 1px solid rgb(255, 0, 0); */
+  border: 1px solid rgb(255, 0, 0, 0.2);
 }
 
 /* Имя мастера */
@@ -151,7 +151,7 @@ body {
 /* Заголовок справа */
 .title_right {
   width: 150px;
-  /* border: 1px solid rgb(255, 0, 0); */
+  border: 1px solid rgb(255, 0, 0, 0.2);
 }
 
 /* Описание для даты последней заявки */
