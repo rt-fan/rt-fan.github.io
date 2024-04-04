@@ -178,3 +178,21 @@ body {
     width: 1536px;
   }
 }
+
+@media (max-width: 1536px) {
+  .main_container {
+    width: 1026px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main_container {
+    width: 768px;
+  }
+}
+
+@media (max-width: 758px) {
+  .main_container {
+    width: 640px;
+  }
+}
