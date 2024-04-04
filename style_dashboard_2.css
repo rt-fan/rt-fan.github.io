@@ -189,7 +189,7 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .main_container {
     width: 768px;
   }
@@ -199,4 +199,4 @@ body {
   .main_container {
     width: 640px;
   }
-}
+} */
