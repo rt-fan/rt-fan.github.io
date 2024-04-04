@@ -60,7 +60,8 @@ body {
 .title_left {
   display: flex;
   align-items: center;
-  border: 1px solid rgb(255, 0, 0);
+  width: 80%;
+  /* border: 1px solid rgb(255, 0, 0); */
 }
 
 .title_left_count a {
@@ -70,8 +71,9 @@ body {
 /* Блок имя и состояние */
 .title_left_name_and_state {
   display: flex;
-  margin-right: 200px;
-  border: 1px solid rgb(255, 0, 0);
+  align-items: center;
+  flex-basis: 50%;
+  /* border: 1px solid rgb(255, 0, 0); */
 }
 
 /* Имя мастера */
@@ -83,14 +85,14 @@ body {
 
 /* Состояние работы */
 .title_left_state {
-  display: inline-block;
-  height: 20px;
+  display: flex;
+  align-items: center;
+  height: 21px;
   color: white;
   background-color: green;
+  font-size: 14px;
   font-weight: 500;
   padding: 0px 10px;
-  /* transform: translate(0px, 4px); */
-  margin-right: 16px;
 }
 
 /* Блок выходов на работу */
@@ -149,7 +151,7 @@ body {
 /* Заголовок справа */
 .title_right {
   width: 150px;
-  border: 1px solid rgb(255, 0, 0);
+  /* border: 1px solid rgb(255, 0, 0); */
 }
 
 /* Описание для даты последней заявки */
