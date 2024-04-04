@@ -151,7 +151,7 @@ body {
 /* Заголовок справа */
 .title_right {
   width: 150px;
-  border: 1px solid rgb(255, 0, 0, 0.2);
+  border: 1px solid rgb(255, 0, 0);
 }
 
 /* Описание для даты последней заявки */
