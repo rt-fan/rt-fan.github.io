@@ -183,6 +183,10 @@ body {
   .main_container {
     width: 1026px;
   }
+
+  .title_left_name_and_state {
+    flex-basis: 65%;
+  }
 }
 
 @media (max-width: 1024px) {
