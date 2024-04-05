@@ -187,7 +187,10 @@ body {
 
 /* Блок с заявкой */
 .block_tasks {
-  margin: 0px;
+  height: 100px;
+  border: 1px solid rgb(255, 0, 0, 0.2);
+  border-top: 1px solid #111827;
+  margin-top: 16px;
 }
 
 .footer {
