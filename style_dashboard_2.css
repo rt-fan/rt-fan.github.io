@@ -208,13 +208,13 @@ body {
 
 .tasks {
   width: 100%;
-  border: 1px solid rgb(255, 0, 0, 0.1);
+  /* border: 1px solid rgb(255, 0, 0, 0.1); */
 }
 
 .task_title {
   display: flex;
   justify-content: space-between;
-  border: 1px solid rgb(255, 0, 0, 0.2);
+  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 .task_title_left {
@@ -257,6 +257,8 @@ body {
   display: inline-block;
   margin-right: 8px;
 }
+
+/* комментарий */
 
 .task_subtype {
   display: inline-block;
