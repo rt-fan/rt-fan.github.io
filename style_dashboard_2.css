@@ -296,18 +296,32 @@ body {
     grid-area: date;
     justify-self: end;
   }
-
-  /* .title_right_description {
-    font-size: 14px;
-  }
-
-  .title_right_datetime {
-    font-size: 14px;
-  } */
 }
 
 @media (max-width: 640px) {
   .main_container {
     width: 360px;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+
+  .block_title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title_left {
+    /* flex-direction: column; */
+    margin-bottom: 4px;
+  }
+
+  .title_left_name {
+    font-size: 16px;
+  }
+
+  .title_left_state {
+    font-size: 10px;
   }
 }
