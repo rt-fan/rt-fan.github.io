@@ -309,7 +309,7 @@ body {
 
   .block_title {
     display: grid;
-    gap: 8px;
+    gap: 4px;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "name name" "counts date";
   }
