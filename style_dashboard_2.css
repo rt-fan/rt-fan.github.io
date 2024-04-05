@@ -29,6 +29,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 30px;
+  border: 2px solid white;
   border-radius: 5px;
   color: rgb(255, 255, 255);
   background-color: rgb(168, 0, 0);
@@ -60,19 +61,12 @@ body {
 .title_left {
   display: flex;
   align-items: center;
-  border: 1px solid rgb(255, 0, 0, 0.2);
+  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 .title_left_count a {
   text-decoration: none;
 }
-
-/* Блок имя и состояние */
-/* .title_left_name_and_state {
-  display: flex;
-  align-items: center;
-  border: 1px solid rgb(255, 0, 0, 0.2);
-} */
 
 /* Имя мастера */
 .title_left_name {
@@ -97,7 +91,7 @@ body {
 .title_centr {
   display: flex;
   justify-content: flex-start;
-  border: 1px solid rgb(255, 0, 0, 0.2);
+  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 /* Блок выходов на работу */
@@ -154,7 +148,7 @@ body {
 /* Заголовок справа */
 .title_right {
   width: 150px;
-  border: 1px solid rgb(255, 0, 0, 0.2);
+  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 /* Описание для даты последней заявки */
@@ -182,9 +176,6 @@ body {
   .main_container {
     width: 1480px;
   }
-  /* .block_title {
-    justify-content: space-between;
-  } */
   .title_left {
     width: 35%;
   }
@@ -250,7 +241,6 @@ body {
   }
   .block_title {
     display: grid;
-    /* gap: 10px; */
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "name date" "counts counts";
   }
@@ -315,7 +305,6 @@ body {
   }
 
   .title_left {
-    /* margin-bottom: 4px; */
     justify-content: space-between;
   }
 
@@ -328,7 +317,6 @@ body {
   }
   .title_centr {
     justify-content: center;
-    /* margin-bottom: 4px; */
   }
 
   .title_right {
