@@ -248,18 +248,17 @@ body {
   .main_container {
     width: 640px;
   }
-
-  .title_left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 75%;
+  .block_title {
+    display: grid;
+    /* gap: 10px; */
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "name date" "counts counts";
   }
 
-  .title_left_name_and_state {
-    display: flex;
+  .title_left {
+    grid-area: name;
+    width: 100%;
     flex-direction: row;
-    align-items: center;
   }
 
   .title_left_name {
@@ -276,6 +275,10 @@ body {
     font-weight: 500;
   }
 
+  .title_centr {
+    grid-area: counts;
+  }
+
   /* Счетчики */
   .count_workday_number,
   .count_weekend_number,
@@ -287,5 +290,24 @@ body {
     height: 25px;
     font-size: 16px;
     font-weight: 500;
+  }
+
+  .title_right {
+    grid-area: date;
+    justify-self: end;
+  }
+
+  /* .title_right_description {
+    font-size: 14px;
+  }
+
+  .title_right_datetime {
+    font-size: 14px;
+  } */
+}
+
+@media (max-width: 640px) {
+  .main_container {
+    width: 360px;
   }
 }
