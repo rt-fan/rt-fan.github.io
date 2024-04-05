@@ -324,4 +324,11 @@ body {
   .title_left_state {
     font-size: 10px;
   }
+  .title_centr {
+    justify-content: center;
+    margin-bottom: 4px;
+  }
+
+  .title_right {
+  }
 }
