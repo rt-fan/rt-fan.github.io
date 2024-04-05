@@ -265,7 +265,7 @@ body {
 }
 
 .task_info {
-  display: flex;
+  /* display: flex; */
   margin-top: 16px;
 }
 
