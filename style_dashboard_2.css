@@ -194,7 +194,6 @@ body {
 }
 
 .task_state_true {
-  height: 100%;
   width: 10px;
   background-color: green;
   margin-right: 16px;
@@ -256,6 +255,7 @@ body {
 .task_type {
   font-weight: 500;
   display: inline-block;
+  margin-right: 8px;
 }
 
 .task_subtype {
@@ -268,9 +268,11 @@ body {
 }
 
 .task_info_login {
+  margin-right: 36px;
 }
 
 .task_info_name {
+  margin-right: 36px;
 }
 
 .task_info_address {
