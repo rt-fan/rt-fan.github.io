@@ -338,6 +338,11 @@ body {
     width: 1024px;
   }
 
+  .task_list {
+    grid-template-columns: repeat(10, 1fr);
+    gap: 8px 4px;
+  }
+
   .title_left {
     flex-basis: 48%;
   }
@@ -366,6 +371,11 @@ body {
 @media (max-width: 1026px) {
   .main_container {
     width: 758px;
+  }
+
+  .task_list {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px 4px;
   }
 
   .title_left {
@@ -443,6 +453,12 @@ body {
   .main_container {
     width: 640px;
   }
+
+  .task_list {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px 4px;
+  }
+
   .block_title {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -505,6 +521,11 @@ body {
 @media (max-width: 660px) {
   .main_container {
     width: 360px;
+  }
+
+  .task_list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 4px;
   }
 
   .info {
