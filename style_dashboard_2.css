@@ -265,7 +265,7 @@ body {
 .task_info {
   display: flex;
   margin-top: 16px;
-  font-size: 6px;
+  font-size: 16px;
 }
 
 .task_info_login {
@@ -382,6 +382,7 @@ body {
     gap: 8px 0px;
     grid-template-columns: 1fr 2fr;
     grid-template-areas: "login name" "address address";
+    font-size: 16px;
   }
 
   .task_info_login {
@@ -456,6 +457,10 @@ body {
   .title_right {
     grid-area: date;
     justify-self: end;
+  }
+
+  .task_info {
+    font-size: 16px;
   }
 
   .footer {
