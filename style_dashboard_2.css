@@ -267,6 +267,7 @@ body {
 .task_info {
   display: flex;
   margin-top: 16px;
+  font-size: 16px;
 }
 
 .task_info_login {
