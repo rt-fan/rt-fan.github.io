@@ -320,6 +320,19 @@ body {
   align-items: center;
 }
 
+@media (min-width: 1920px) {
+  .main_container {
+    width: 1480px;
+  }
+  .title_left {
+    width: 35%;
+  }
+
+  .footer::after {
+    content: "- 1920px";
+  }
+}
+
 @media (max-width: 1920px) {
   .main_container {
     width: 1480px;
