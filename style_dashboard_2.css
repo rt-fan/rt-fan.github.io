@@ -283,6 +283,7 @@ body {
 
 .task_info_address {
   width: 550px;
+  font-size: 16px;
   /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
