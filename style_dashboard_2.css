@@ -301,7 +301,7 @@ body {
   }
 
   .footer::after {
-    content: " - 1920px";
+    content: "- 1920px";
   }
 }
 
@@ -331,7 +331,7 @@ body {
   }
 
   .footer::after {
-    content: " - 1536px";
+    content: "- 1536px";
   }
 }
 
@@ -390,24 +390,24 @@ body {
 
   .task_info_login {
     width: 100%;
-    border: 1px solid rgb(252, 185, 185, 0.5);
+    /* border: 1px solid rgb(252, 185, 185, 0.5); */
     grid-area: login;
   }
 
   .task_info_name {
     width: 100%;
-    border: 1px solid rgb(252, 185, 185, 0.5);
+    /* border: 1px solid rgb(252, 185, 185, 0.5); */
     grid-area: name;
   }
 
   .task_info_address {
     width: 100%;
-    border: 1px solid rgb(252, 185, 185, 0.5);
+    /* border: 1px solid rgb(252, 185, 185, 0.5); */
     grid-area: address;
   }
 
   .footer::after {
-    content: " - 1026px";
+    content: "- 1026px";
   }
 }
 
@@ -470,7 +470,7 @@ body {
   }
 
   .footer::after {
-    content: " - 758px";
+    content: "- 758px";
   }
 }
 
@@ -553,6 +553,6 @@ body {
   }
 
   .footer::after {
-    content: " - 660px";
+    content: "- 660px";
   }
 }
