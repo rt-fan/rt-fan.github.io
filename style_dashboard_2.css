@@ -462,6 +462,10 @@ body {
     font-size: 16px;
   }
 
+  .task_info_address {
+    font-size: 14px;
+  }
+
   .footer::after {
     content: " - 758px";
   }
