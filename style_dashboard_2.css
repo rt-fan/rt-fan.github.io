@@ -314,6 +314,10 @@ body {
     flex-basis: 48%;
   }
 
+  .task_info {
+    font-size: 16px;
+  }
+
   .task_info_login {
     width: 17%;
   }
@@ -333,7 +337,7 @@ body {
 
 @media (max-width: 1026px) {
   .main_container {
-    width: 768px;
+    width: 758px;
   }
 
   .title_left {
@@ -385,17 +389,20 @@ body {
   }
 
   .task_info_login {
-    width: auto;
+    width: 100%;
+    border: 1px solid rgb(252, 185, 185, 0.5);
     grid-area: login;
   }
 
   .task_info_name {
-    width: auto;
+    width: 100%;
+    border: 1px solid rgb(252, 185, 185, 0.5);
     grid-area: name;
   }
 
   .task_info_address {
-    width: auto;
+    width: 100%;
+    border: 1px solid rgb(252, 185, 185, 0.5);
     grid-area: address;
   }
 
@@ -404,7 +411,7 @@ body {
   }
 }
 
-@media (max-width: 758px) {
+@media (max-width: 768px) {
   .main_container {
     width: 640px;
   }
