@@ -309,10 +309,6 @@ body {
     flex-basis: 48%;
   }
 
-  .task_info {
-    /* border: 1px solid rgb(255, 0, 0, 0.2); */
-  }
-
   .task_info_login {
     width: 17%;
   }
@@ -446,9 +442,6 @@ body {
   .title_right {
     grid-area: date;
     justify-self: end;
-  }
-
-  .task_info {
   }
 }
 
