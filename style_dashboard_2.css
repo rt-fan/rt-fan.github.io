@@ -196,14 +196,13 @@ body {
 .task_state_true {
   width: 10px;
   background-color: green;
-  margin-right: 16px;
+  margin-right: 10px;
 }
 
 .task_state_false {
-  height: 100%;
-  width: 8px;
+  width: 10px;
   background-color: red;
-  margin-right: 16px;
+  margin-right: 10px;
 }
 
 .tasks {
@@ -234,7 +233,8 @@ body {
 .task_title_right {
   width: 150px;
   display: grid;
-  color: #465474;
+  color: #111827;
+  /* color: #465474; */
   grid-template-areas: "t_descr t_descr" "t_date t_time";
 }
 
@@ -265,19 +265,29 @@ body {
 }
 
 .task_info {
-  /* display: flex; */
+  display: flex;
   margin-top: 16px;
 }
 
 .task_info_login {
-  margin-right: 36px;
+  width: 300px;
+  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 .task_info_name {
-  margin-right: 36px;
+  width: 400px;
+  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 .task_info_address {
+  width: 550px;
+  /* border: 1px solid rgb(255, 0, 0, 0.2); */
+}
+
+.login_description,
+.name_description,
+.address_description {
+  font-weight: 500;
 }
 
 .footer {
@@ -302,6 +312,22 @@ body {
 
   .title_left {
     flex-basis: 48%;
+  }
+
+  .task_info {
+    /* border: 1px solid rgb(255, 0, 0, 0.2); */
+  }
+
+  .task_info_login {
+    width: 17%;
+  }
+
+  .task_info_name {
+    width: 38%;
+  }
+
+  .task_info_address {
+    width: 44%;
   }
 }
 
@@ -348,6 +374,32 @@ body {
   }
   .title_left_days {
     margin-right: 20px;
+  }
+
+  .task_info {
+    display: grid;
+    gap: 8px 0px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "login name" "address address";
+    /* border: 2px solid rgba(43, 255, 0, 0.1); */
+  }
+
+  .task_info_login {
+    width: auto;
+    grid-area: login;
+    /* border: 1px solid rgb(255, 0, 0, 0.2); */
+  }
+
+  .task_info_name {
+    width: auto;
+    grid-area: name;
+    /* border: 1px solid rgb(255, 0, 0, 0.2); */
+  }
+
+  .task_info_address {
+    width: auto;
+    grid-area: address;
+    /* border: 1px solid rgb(255, 0, 0, 0.2); */
   }
 }
 
@@ -445,5 +497,36 @@ body {
     flex-direction: column;
     font-size: 10px;
     text-align: end;
+  }
+
+  .task_title_right {
+    display: grid;
+    width: 100px;
+    grid-template-areas: "r_descr r_descr" "r_date r_time";
+    font-size: 10px;
+    justify-content: end;
+    /* border: 1px solid rgb(255, 0, 0, 0.2); */
+  }
+
+  .title_right_description {
+    grid-area: r_descr;
+  }
+
+  .title_right_date {
+    grid-area: r_date;
+    margin-right: 3px;
+  }
+
+  .title_right_time {
+    grid-area: r_time;
+  }
+
+  .task_type {
+    margin-top: 16px;
+  }
+
+  .task_info {
+    display: flex;
+    flex-direction: column;
   }
 }
