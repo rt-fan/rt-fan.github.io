@@ -376,25 +376,21 @@ body {
     gap: 8px 0px;
     grid-template-columns: 1fr 2fr;
     grid-template-areas: "login name" "address address";
-    /* border: 2px solid rgba(43, 255, 0, 0.1); */
   }
 
   .task_info_login {
     width: auto;
     grid-area: login;
-    /* border: 1px solid rgb(255, 0, 0, 0.2); */
   }
 
   .task_info_name {
     width: auto;
     grid-area: name;
-    /* border: 1px solid rgb(255, 0, 0, 0.2); */
   }
 
   .task_info_address {
     width: auto;
     grid-area: address;
-    /* border: 1px solid rgb(255, 0, 0, 0.2); */
   }
 }
 
@@ -453,7 +449,6 @@ body {
   }
 
   .task_info {
-    font-size: 16px;
   }
 }
 
