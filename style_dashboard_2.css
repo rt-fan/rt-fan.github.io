@@ -24,6 +24,34 @@ body {
   margin-bottom: 16px;
 }
 
+.description {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.task_list {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 8px 4px;
+}
+
+.long_time_tasks {
+  border: 1px solid #111827;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+}
+
+.long_time_tasks a {
+  border: 1px solid #111827;
+  border-radius: 4px;
+  color: #111827;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px;
+}
+
 .info {
   display: flex;
   justify-content: center;
