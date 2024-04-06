@@ -201,7 +201,7 @@ body {
 
 .task_state_false {
   width: 10px;
-  background-color: red;
+  background-color: rgb(168, 0, 0);
   margin-right: 10px;
 }
 
