@@ -232,7 +232,6 @@ body {
   width: 150px;
   display: grid;
   color: #111827;
-  /* color: #465474; */
   grid-template-areas: "t_descr t_descr" "t_date t_time";
 }
 
@@ -301,8 +300,8 @@ body {
     width: 35%;
   }
 
-  .footer {
-    /* color: red; */
+  .footer::after {
+    content: " 1920px";
   }
 }
 
@@ -327,8 +326,8 @@ body {
     width: 44%;
   }
 
-  .footer {
-    /* color: orange; */
+  .footer::after {
+    content: " 1536px";
   }
 }
 
@@ -400,8 +399,8 @@ body {
     grid-area: address;
   }
 
-  .footer {
-    /* color: green; */
+  .footer::after {
+    content: "1026px";
   }
 }
 
@@ -463,8 +462,8 @@ body {
     font-size: 16px;
   }
 
-  .footer {
-    /* color: blue; */
+  .footer::after {
+    content: "758px";
   }
 }
 
@@ -515,7 +514,7 @@ body {
     grid-template-areas: "r_descr r_descr" "r_date r_time";
     font-size: 10px;
     justify-content: end;
-    /* border: 1px solid rgb(255, 0, 0, 0.2); */
+    border: 1px solid rgb(255, 0, 0, 0.2);
   }
 
   .title_right_description {
@@ -546,7 +545,7 @@ body {
     font-size: 14px;
   }
 
-  .footer {
-    /* color: pink; */
+  .footer::after {
+    content: "660px";
   }
 }
