@@ -390,19 +390,19 @@ body {
 
   .task_info_login {
     width: 100%;
-    border: 1px solid rgb(252, 185, 185, 0.5);
+    /* border: 1px solid rgb(252, 185, 185, 0.5); */
     grid-area: login;
   }
 
   .task_info_name {
     width: 100%;
-    border: 1px solid rgb(252, 185, 185, 0.5);
+    /* border: 1px solid rgb(252, 185, 185, 0.5); */
     grid-area: name;
   }
 
   .task_info_address {
     width: 100%;
-    border: 1px solid rgb(252, 185, 185, 0.5);
+    /* border: 1px solid rgb(252, 185, 185, 0.5); */
     grid-area: address;
   }
 
