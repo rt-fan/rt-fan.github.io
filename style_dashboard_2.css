@@ -462,7 +462,7 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 660px) {
   .main_container {
     width: 360px;
   }
@@ -541,6 +541,6 @@ body {
   }
 
   .footer {
-    color: black;
+    color: pink;
   }
 }
