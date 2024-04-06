@@ -173,7 +173,6 @@ body {
 /* Заголовок справа */
 .title_right {
   width: 150px;
-  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 /* Описание для даты последней заявки */
@@ -208,13 +207,11 @@ body {
 
 .tasks {
   width: 100%;
-  /* border: 1px solid rgb(255, 0, 0, 0.1); */
 }
 
 .task_title {
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 .task_title_left {
@@ -268,23 +265,18 @@ body {
 .task_info {
   display: flex;
   margin-top: 16px;
-  font-size: 16px;
 }
 
 .task_info_login {
   width: 300px;
-  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 .task_info_name {
   width: 400px;
-  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 .task_info_address {
   width: 550px;
-  font-size: 16px;
-  /* border: 1px solid rgb(255, 0, 0, 0.2); */
 }
 
 .login_description,
@@ -459,6 +451,10 @@ body {
     grid-area: date;
     justify-self: end;
   }
+
+  .task_info {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -531,5 +527,6 @@ body {
   .task_info {
     display: flex;
     flex-direction: column;
+    font-size: 14px;
   }
 }
