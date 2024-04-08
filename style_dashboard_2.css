@@ -15,7 +15,7 @@ body {
   height: 60px;
   color: #ffffff;
   background-color: #111827;
-  border-radius: 5px;
+  border-radius: 0px 0px 5px 5px;
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -29,6 +29,11 @@ body {
   margin-right: 10px;
   border: 2px solid white;
   border-radius: 4px;
+}
+
+.qwe {
+  display: flex;
+  justify-content: center;
 }
 
 .description {
@@ -327,8 +332,9 @@ body {
   align-items: center;
 }
 
-.footer a::after {
-  content: "&nbsp;";
+.footer a {
+  color: #111827;
+  text-decoration: none;
 }
 
 @media (min-width: 1920px) {
